@@ -81,7 +81,10 @@ other = "취소"
 other = "검색 결과 없음"
 
 [lunrLanguageCode]
-other = "en"
+other = "ko"
+
+[lunrLanguageLib]
+other = "lib/lunr/lunr.ko.js"
 
 [copyToClipboard]
 other = "복사하기"
