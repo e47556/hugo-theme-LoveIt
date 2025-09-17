@@ -15,6 +15,9 @@
 {{- with .Site.Params.verification.baidu -}}
     <meta name="baidu-site-verification" content="{{ . }}" />
 {{- end -}}
+{{- with .Site.Params.verification.naver -}}
+    <meta name="naver-site-verification" content="{{ . }}" />
+{{- end -}}
 
 {{- /* Home SEO */ -}}
 {{- if .IsHome -}}
